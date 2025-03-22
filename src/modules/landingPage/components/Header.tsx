@@ -22,7 +22,7 @@ const Header = (props: Props) => {
       </div>
 
       <Button className=" btn  font-medium bg-brand-color rounded-md  text-tinted-black ">
-        Save changes
+      Contact Us
       </Button>
     </div>
   );
