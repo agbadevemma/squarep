@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Taper from "./components/Taper";
+import OurService from "./components/OurService";
 
 type Props = {};
 
@@ -13,6 +15,13 @@ const LandingPage = (props: Props) => {
       <div className="w-full  px-4 lg:px-20 xl:px-24">
         <Hero />
       </div>
+    <div className="px-4 lg:px-20 xl:px-24 ">
+    <Taper />
+    </div>
+
+    <div className="px-4 lg:px-20 xl:px-24 ">
+    <OurService />
+    </div>
     </div>
   );
 };
