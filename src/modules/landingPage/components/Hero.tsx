@@ -43,18 +43,21 @@ const Hero = (props: Props) => {
         <div className="mt-4 flex items-center gap-4 mx-auto w-fit  z-10">
           <Button
             className={
-              "  rounded-md  backdrop-blur-3xl text-sm z-10 text-white font-medium border border-[#333333] bg-[#24242433]/20 p-2 "
+              "  rounded-md backdrop-blur-3xl text-sm z-10 text-white font-medium border border-[#333333] bg-[#24242433]/20 p-2 "
             }
           >
             Our Works
           </Button>
           <Button
             className={
-              "btn rounded-md p-2 text-sm   z-10  bg-brand-color text-tinted-black font-medium"
+              " rounded-md p-2 text-sm e z-10  bg-brand-color text-tinted-black font-medium"
             }
           >
             Contact Us
           </Button>
+        </div>
+        <div className="absolute font-medium rounded-full -bottom-12 px-5 py-2.5  w-fit  left-1/2 -translate-1/2  z-10  w-fist bg-[#1A1A1A] border border-tinted-black text-[#FDFFFA]">
+          Trusted By 250+ Companies
         </div>
         <Image src={graph} alt="graph" className="absolute bottom-0 " />
       </div>
