@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${barlowFont.variable}  antialiased`}
+        className={`${barlowFont} `}
       >
        {children}
       </body>
