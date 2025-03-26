@@ -2,8 +2,9 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Taper from "./components/Taper";
-import OurService from "./components/ourServiceComp/OurService";
-import Whychoose from "./components/Whychoose";
+import OurService from "./components/ourServiceComp";
+import WhyChooseUs from "./components/whyChooseUs";
+
 
 type Props = {};
 
@@ -25,7 +26,7 @@ const LandingPage = (props: Props) => {
       </div>
 
       <div className="px-4 lg:px-20 xl:px-24 ">
-        <Whychoose />
+        <WhyChooseUs />
       </div>
     </div>
   );

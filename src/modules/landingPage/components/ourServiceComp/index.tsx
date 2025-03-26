@@ -1,13 +1,11 @@
 import React from "react";
 import bg from "../../../../../public/images/bgs/bg2.svg";
-import icon1 from "../../../../public/images/icons/Union.svg";
-import servicebg from "../../../../public/images/bgs/bg3.svg";
 import Image from "next/image";
 import Service from "./Service";
 import { services } from "@/lib/data";
 const OurService = () => {
   return (
-    <div className="mb-32">
+    <div className="">
       <div className="border border-tinted-black w-full">
         <div
           style={{ backgroundImage: `url(${bg.src})` }}

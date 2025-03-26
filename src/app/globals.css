@@ -1,18 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
-@theme{
-  --color-tinted-black:#262626;
-  --color-brand-color:#9EFF00
+@theme {
+  --color-tinted-black: #262626;
+  --color-brand-color: #9eff00;
 }
 
 :root {
-  --background: #1A1A1A !important;
-  /* --foreground: #171717; */
+  --background: #1a1a1a !important;
+  --foreground: #fff !important;
 }
-
-
 
 /* @theme inline {
   --color-background: var(--background);
@@ -31,9 +28,10 @@
 html {
   background: var(--background) !important;
   color: var(--foreground);
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .bg-radix {
-  background-color:var(--background);
+  background-color: var(--background);
 }

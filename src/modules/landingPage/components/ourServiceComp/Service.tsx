@@ -7,7 +7,6 @@ import { ServiceProps } from "@/lib/data";
 const Service = ({ title, description, icon }: ServiceProps) => {
   return (
     <div>
-      {" "}
       <div className="w-full px-12 p-2 pb-6 flex flex-col gap-4 text-white border-r border-tinted-black ">
         <div
           style={{ backgroundImage: `url(${servicebg.src})` }}
@@ -20,7 +19,6 @@ const Service = ({ title, description, icon }: ServiceProps) => {
         <button className="bg-tinted-black w-full mt-10 p-2 rounded-lg text-white">
           Learn More
         </button>
-      
       </div>
     </div>
   );
