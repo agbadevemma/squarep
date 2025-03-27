@@ -7,13 +7,13 @@ import BannerSection from "@/sharedcomponents/BannerSection";
 const OurService = () => {
   return (
     <div className="">
-      <div className="border border-tinted-black w-full">
         <BannerSection
           bg={bg}
           description="Transform your brand with our innovative digital solutions that
               captivate and engage your audience."
           title="Our Services"
         />
+      <div className="border border-r-0 border-tinted-black w-full">
         <div className="flex items-center">
           {services.map((item, index) => (
             <div key={index} className="w-full">

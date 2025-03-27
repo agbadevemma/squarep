@@ -19,8 +19,8 @@ const TestimonialCard = ({
       className={` p-10  ${index % 2 === 0 ? "border-r" : ""} 
               ${index < 4 ? "border-b" : ""}    border-tinted-black  `}
     >
-      <h3 className="text-[#D8FF99] text-2xl">{highlight}</h3>
-      <p className="mt-4 text-base font-light">{testimonial}</p>
+      <h3 className="text-[#D8FF99] text-xl">{highlight}</h3>
+      <p className="mt-4 text-base font-extralight">{testimonial}</p>
       <div
         className={`w-full p-4 border border-tinted-black rounded-lg flex items-center justify-between bg-[#242424]/[20%] mt-8 `}
       >

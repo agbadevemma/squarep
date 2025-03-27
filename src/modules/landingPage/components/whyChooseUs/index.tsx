@@ -8,15 +8,14 @@ type Props = {};
 const WhyChooseUs = (props: Props) => {
   return (
     <div>
-      <div className="border border-tinted-black w-full ">
-        <BannerSection
-          bg={bg}
-          description=" Experience excellence in digital craftsmanship with our team of
+      <BannerSection
+        bg={bg}
+        description=" Experience excellence in digital craftsmanship with our team of
               skilled professionals dedicated to delivering exceptional results."
-          title="Why Choose SquareUp?"
-        />
-      </div>
-      <div className="w-full  border-t-0 border border-tinted-black grid   grid-cols-2 grid-rows-2 ">
+        title="Why Choose SquareUp?"
+      />
+
+      <div className="w-full   border border-tinted-black grid   grid-cols-2 grid-rows-2 ">
         {reasons.map((item, index) => (
           <Whychoose
             key={index}

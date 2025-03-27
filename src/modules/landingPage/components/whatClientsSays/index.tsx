@@ -11,14 +11,14 @@ type Props = {};
 const WhatClientSays = (props: Props) => {
   return (
     <div>
-      <div className="mb-32">
+      <div className="">
         <BannerSection
           bg={bg}
           description="At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us"
           title="What our Clients say About us"
         />
 
-        <div className="w-full  border-t-0 border border-tinted-black grid lg:grid-cols-2  ">
+        <div className="w-full  border border-tinted-black grid lg:grid-cols-2  ">
           {testimonals.map((item, index) => (
             <TestimonialCard
             key={index}

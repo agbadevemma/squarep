@@ -5,7 +5,7 @@ import Taper from "./components/Taper";
 import OurService from "./components/ourServiceComp";
 import WhyChooseUs from "./components/whyChooseUs";
 import WhatClientSays from "./components/whatClientsSays";
-
+import Faqs from "./components/faqs";
 
 type Props = {};
 
@@ -31,6 +31,9 @@ const LandingPage = (props: Props) => {
       </div>
       <div className="px-4 lg:px-20 xl:px-24 ">
         <WhatClientSays />
+      </div>
+      <div className="px-4 lg:px-20 xl:px-24 ">
+        <Faqs />
       </div>
     </div>
   );
