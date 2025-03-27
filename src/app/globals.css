@@ -8,7 +8,7 @@
 
 :root {
   --background: #1a1a1a !important;
-  --foreground: #fff !important;
+  --foreground: #fff ;
 }
 
 /* @theme inline {
