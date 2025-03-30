@@ -15,12 +15,6 @@ import profile4 from "../../public/images/profiles/profile4.svg";
 import profile5 from "../../public/images/profiles/profile5.svg";
 import profile6 from "../../public/images/profiles/profile6.svg";
 
-export type ServiceProps = {
-  title: string;
-  description: string;
-  icon: StaticImageData;
-};
-
 export type TestimonialProps = {
   name: string;
   position: string;
@@ -30,51 +24,72 @@ export type TestimonialProps = {
   websiteUrl: string;
 };
 
-export const testimonals: TestimonialProps[] = [{
-  name:"John Smith",
-  position:"CEO of Chic Boutique",
-  profile:profile1,
-  testimonial:"Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
-  highlight:"SquareUp has been Instrumental in Transforming our Online Presence. ",
-  websiteUrl:""
-},{
-  name:"Sarah Johnson",
-  position:"Founder of HungryBites.",
-  profile:profile2,
-  testimonial:"They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.",
-  highlight:"Working with SquareUp was a breeze.",
-  websiteUrl:""
-},{
-  name:"Mark Thompson",
-  position:"CEO of EventMasters",
-  profile:profile3,
-  testimonial:"Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.",
-  highlight:"SquareUp developed a comprehensive booking and reservation system for our event management company.",
-  websiteUrl:""
-},{
-  name:"Laura Adams",
-  position:"COO of ProTech Solutions.",
-  profile:profile4,
-  testimonial:"They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.",
-  highlight:"ProTech Solutions turned to SquareUp to automate our workflow",
-  websiteUrl:""
-},
-{
-  name:"Michael Anderson",
-  position:"Founder of Dream Homes Realty.",
-  profile:profile5,
-  testimonial:"The platform is visually appealing and easy to navigate, allowing potential buyers to find their dream homes effortlessly. SquareUp's expertise in the real estate industry is unmatched.",
-  highlight:"SquareUp designed and developed a captivating web portal for showcasing our real estate listings.",
-  websiteUrl:""
-},{
-  name:"Emily Turner",
-  position:"CEO of FitLife Tracker",
-  profile:profile6,
-  testimonial:"SquareUp's team developed an intuitive and feature-rich app that has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp for any health and fitness app development needs.",
-  highlight:"FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans.",
-  websiteUrl:""
-},
+export const testimonals: TestimonialProps[] = [
+  {
+    name: "John Smith",
+    position: "CEO of Chic Boutique",
+    profile: profile1,
+    testimonial:
+      "Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
+    highlight:
+      "SquareUp has been Instrumental in Transforming our Online Presence. ",
+    websiteUrl: "",
+  },
+  {
+    name: "Sarah Johnson",
+    position: "Founder of HungryBites.",
+    profile: profile2,
+    testimonial:
+      "They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.",
+    highlight: "Working with SquareUp was a breeze.",
+    websiteUrl: "",
+  },
+  {
+    name: "Mark Thompson",
+    position: "CEO of EventMasters",
+    profile: profile3,
+    testimonial:
+      "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.",
+    highlight:
+      "SquareUp developed a comprehensive booking and reservation system for our event management company.",
+    websiteUrl: "",
+  },
+  {
+    name: "Laura Adams",
+    position: "COO of ProTech Solutions.",
+    profile: profile4,
+    testimonial:
+      "They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.",
+    highlight: "ProTech Solutions turned to SquareUp to automate our workflow",
+    websiteUrl: "",
+  },
+  {
+    name: "Michael Anderson",
+    position: "Founder of Dream Homes Realty.",
+    profile: profile5,
+    testimonial:
+      "The platform is visually appealing and easy to navigate, allowing potential buyers to find their dream homes effortlessly. SquareUp's expertise in the real estate industry is unmatched.",
+    highlight:
+      "SquareUp designed and developed a captivating web portal for showcasing our real estate listings.",
+    websiteUrl: "",
+  },
+  {
+    name: "Emily Turner",
+    position: "CEO of FitLife Tracker",
+    profile: profile6,
+    testimonial:
+      "SquareUp's team developed an intuitive and feature-rich app that has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp for any health and fitness app development needs.",
+    highlight:
+      "FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans.",
+    websiteUrl: "",
+  },
 ];
+
+export type ServiceProps = {
+  title: string;
+  description: string;
+  icon: StaticImageData;
+};
 
 export const services: ServiceProps[] = [
   {
@@ -121,5 +136,77 @@ export const reasons: ServiceProps[] = [
     description:
       "We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.",
     icon: icon7,
+  },
+];
+
+export type SingleFaqProp = {
+  id: number;
+  title: string;
+  description: string;
+};
+
+export const faqs: SingleFaqProp[] = [
+  {
+    id: 10,
+    title: "",
+    description:
+      "",
+  }, 
+  {
+    id: 20,
+    title: "",
+    description:
+      "",
+  },
+  {
+    id: 1,
+    title: "What services does SquareUp provide?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+
+  {
+    id: 2,
+    title: "How can SquareUp help my business?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  
+  {
+    id: 3,
+    title: "What industries does SquareUp work with?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  {
+    id: 4,
+    title: "How long does it take to complete a project with SquareUp?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  {
+    id: 5,
+    title:
+      "Do you offer ongoing support and maintenance after the project is completed?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  {
+    id: 6,
+    title: "Can you work with existing design or development frameworks?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  {
+    id: 7,
+    title: "How involved will I be in the project development process?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
+  },
+  {
+    id: 8,
+    title: "Can you help with website or app maintenance and updates?",
+    description:
+      "SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.",
   },
 ];
