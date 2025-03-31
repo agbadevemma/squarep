@@ -5,7 +5,7 @@ type Props = {}
 
 const LeadCaptureSection = (props: Props) => {
   return (
-    <div className="mb-32">
+    <div >
          <BannerSection
         bg={bg}
         description="We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us."

@@ -35,3 +35,9 @@ html {
 .bg-radix {
   background-color: var(--background);
 }
+
+
+.rc-slider-handle-dragging {
+  border-color: #4C4C4D !important; /* 🔥 Updated to #4C4C4D */
+  box-shadow: 0 0 0 5px rgba(76, 76, 77, 0.7) !important; /* Soft glowing effect with updated color */
+}
