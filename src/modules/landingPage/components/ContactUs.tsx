@@ -24,7 +24,7 @@ const ContactUs = (props: Props) => {
   };
 
   return (
-    <div className="mb-32 border border-tinted-black ">
+    <div className="border border-tinted-black ">
       <div className="max-w-[1040px] mx-auto grid grid-cols-2 px-20  p-4 gap-8 border border-tinted-black pt-20">
         <ContactBg
           children={

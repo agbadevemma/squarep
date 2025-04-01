@@ -8,6 +8,7 @@ import WhatClientSays from "./components/whatClientsSays";
 import Faqs from "./components/faqs";
 import LeadCaptureSection from "./components/LeadCaptureSection";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 type Props = {};
 
@@ -43,6 +44,10 @@ const LandingPage = (props: Props) => {
       <div className="px-4 lg:px-20 xl:px-24 ">
         <ContactUs />
       </div>
+      <div className="">
+        <Footer />
+      </div>
+      
     </div>
   );
 };
